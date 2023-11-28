@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+/* 눌렀을 때 */
+a:active {
+}
+/* 한 번이라도 방문했을 때 */
+a:visited {
+}
+/* 마우스 커서 올렸을 때 */
+a:hover {
+}
+img {
+  vertical-align: middle;
+  /* 테투리 없애기 */
+  border: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Noto Sans KR", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: #000;
+  line-height: 1.24;
+  letter-spacing: -0.23px;
+  font-weight: 400;
+  word-break: break-all;
+  background: #eaeaea;
+}
